@@ -1,0 +1,3 @@
+/*
+insert all inicial data of the bussines or import from excell data
+*/
