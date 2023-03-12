@@ -1,0 +1,16 @@
+current directory: /home/marb/programming/sicma-project/sicma-project/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20230311-5042-3y1o2v.rb extconf.rb
+creating Makefile
+
+current directory: /home/marb/programming/sicma-project/sicma-project/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= clean
+
+current directory: /home/marb/programming/sicma-project/sicma-project/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/marb/programming/sicma-project/sicma-project/vendor/bundle/ruby/3.0.0/gems/debug-1.7.1/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20230311-5042-87ahzc/debug
