@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @factura %>
+
+<div>
+  <%= link_to "Edit this factura", edit_factura_path(@factura) %> |
+  <%= link_to "Back to facturas", facturas_path %>
+
+  <%= button_to "Destroy this factura", @factura, method: :delete %>
+</div>

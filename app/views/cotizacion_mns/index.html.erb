@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Cotizacion mns</h1>
+
+<div id="cotizacion_mns">
+  <% @cotizacion_mns.each do |cotizacion_mn| %>
+    <%= render cotizacion_mn %>
+    <p>
+      <%= link_to "Show this cotizacion mn", cotizacion_mn %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New cotizacion mn", new_cotizacion_mn_path %>

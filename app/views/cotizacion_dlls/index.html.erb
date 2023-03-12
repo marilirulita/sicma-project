@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Cotizacion dlls</h1>
+
+<div id="cotizacion_dlls">
+  <% @cotizacion_dlls.each do |cotizacion_dll| %>
+    <%= render cotizacion_dll %>
+    <p>
+      <%= link_to "Show this cotizacion dll", cotizacion_dll %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New cotizacion dll", new_cotizacion_dll_path %>

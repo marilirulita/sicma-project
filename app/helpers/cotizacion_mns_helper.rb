@@ -1,0 +1,2 @@
+module CotizacionMnsHelper
+end
