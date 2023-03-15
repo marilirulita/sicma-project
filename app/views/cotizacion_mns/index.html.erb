@@ -6,9 +6,9 @@
   <% @cotizacion_mns.each do |cotizacion_mn| %>
     <%= render cotizacion_mn %>
     <p>
-      <%= link_to "Show this cotizacion mn", cotizacion_mn %>
+      <%= link_to "Show this cotizacion mn", user_cotizacion_mn %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New cotizacion mn", new_cotizacion_mn_path %>
+<%= link_to "New cotizacion mn", new_user_cotizacion_mn_path %>

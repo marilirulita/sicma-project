@@ -1,13 +1,19 @@
 Rails.application.routes.draw do
-  resources :cotizacion_mns
-  resources :cotizacion_dlls
   resources :facturas
-  resources :jobs
   resources :proveedors
-  resources :clientes
-  resources :users
+
+  resources :users do
+    resources :cotizacion_mns do
+      resources :clientes
+    end
+    resources :cotizacion_dlls do
+      resources :clientes
+    end
+    resources :jobs
+  end
+    
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
-  # root "articles#index"
+  root "users#index"
 end
